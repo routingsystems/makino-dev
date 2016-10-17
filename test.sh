@@ -1,2 +1,3 @@
 #!/bin/sh
-sleep 40s;touch test.txt
+touch test.txt
+sleep 40s;touch test2.txt
