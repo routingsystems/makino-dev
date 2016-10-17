@@ -1,4 +1,4 @@
-<?php exec("test.sh"); ?>
+<?php exec("./test.sh"); ?>
 <script type="text/javascript">
     <!--
 
