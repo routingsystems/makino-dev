@@ -1,2 +1,2 @@
 #!/bin/sh
-touch test.txt;sleep 40s;touch test2.txt;
+touch test.txt;sleep 40s;echo 'this is async test' > test2.txt;
