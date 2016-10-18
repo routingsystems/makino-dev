@@ -1,4 +1,5 @@
 <?php shell_exec('bash test.sh > /dev/null &'); ?>
+<?php echo getenv('TEST'); ?>
 <script type="text/javascript">
     <!--
 
