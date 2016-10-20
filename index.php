@@ -1,4 +1,5 @@
 <?php shell_exec('bash test.sh > /dev/null &'); ?>
+<?php shell_exec('php test.php > /dev/null &'); ?>
 <?php echo getenv('TEST'); ?>
 <?php if(file_exists(('test2.txt')) ){echo 'ファイルが存在します';} ?>
 <?php if(file_exists(('test2.txt')) ){echo 'ファイルが存在します';} ?>
